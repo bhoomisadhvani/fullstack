@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p::first-letter {
+  font-size: 50px;
+  color: rgb(129, 99, 156);
+}
+
+.list::first-line {
+  color: rgb(109, 102, 108);
+  font-size: 60px;
+}
+
+/* pseudo classes */
+
+.list li:first-child {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.list li:last-child {
+  font-style: bold;
+}
+
+.list li:nth-child(3) {
+  color: rgb(58, 80, 82);
+}
